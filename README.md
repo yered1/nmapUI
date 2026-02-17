@@ -31,7 +31,7 @@ Cross-platform desktop application for parsing, viewing, and exporting Nmap scan
 - **Notes** — rich text notes manager with search, target filtering, and inline editing
 
 ### Notes & Screenshots
-- **Inline rich text editor** (opens directly in the notes panel, no modal) with formatting:
+- **Inline rich text editor** with formatting:
   - Bold, italic, underline, strikethrough
   - Text color picker (9 colors)
   - Highlight/background color picker (7 colors)
