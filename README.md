@@ -22,6 +22,15 @@ Cross-platform desktop application for parsing, viewing, and exporting Nmap scan
   - TCP/IP sequence prediction and timing data
   - Uptime, distance, smurfs, and run statistics
 
+
+### Application screenshots
+
+
+<img width="1721" height="1107" alt="image" src="https://github.com/user-attachments/assets/695cdaad-9adc-4099-9383-aa4914c0256e" />
+
+
+
+
 ### Views
 - **Dashboard** — scan overview with statistics, charts for top ports, services, OS distribution, and port state breakdown
 - **Hosts** — full sortable, filterable table with multi-select, column sorting, and inline search
