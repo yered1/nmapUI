@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="100" y1="100" x2="412" y2="412" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="256" y1="80" x2="256" y2="432" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <rect width="512" height="512" rx="96" fill="url(#glow)"/>
+  <!-- Network ring -->
+  <circle cx="256" cy="256" r="160" stroke="url(#accent)" stroke-width="6" fill="none" opacity="0.4"/>
+  <circle cx="256" cy="256" r="110" stroke="url(#accent)" stroke-width="3" fill="none" opacity="0.2"/>
+  <!-- Scanning arc -->
+  <path d="M 256 96 A 160 160 0 0 1 416 256" stroke="#38bdf8" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Center node -->
+  <circle cx="256" cy="256" r="24" fill="#38bdf8"/>
+  <circle cx="256" cy="256" r="12" fill="#0f172a"/>
+  <!-- Network nodes -->
+  <circle cx="256" cy="96" r="14" fill="#4ade80"/>
+  <circle cx="416" cy="256" r="14" fill="#4ade80"/>
+  <circle cx="256" cy="416" r="14" fill="#fbbf24"/>
+  <circle cx="96" cy="256" r="14" fill="#f87171"/>
+  <!-- Diagonal nodes -->
+  <circle cx="369" cy="143" r="10" fill="#4ade80"/>
+  <circle cx="369" cy="369" r="10" fill="#4ade80"/>
+  <circle cx="143" cy="369" r="10" fill="#fbbf24"/>
+  <circle cx="143" cy="143" r="10" fill="#f87171"/>
+  <!-- Connection lines -->
+  <line x1="256" y1="256" x2="256" y2="96" stroke="#4ade80" stroke-width="2" opacity="0.5"/>
+  <line x1="256" y1="256" x2="416" y2="256" stroke="#4ade80" stroke-width="2" opacity="0.5"/>
+  <line x1="256" y1="256" x2="256" y2="416" stroke="#fbbf24" stroke-width="2" opacity="0.3"/>
+  <line x1="256" y1="256" x2="96" y2="256" stroke="#f87171" stroke-width="2" opacity="0.3"/>
+  <line x1="256" y1="256" x2="369" y2="143" stroke="#4ade80" stroke-width="1.5" opacity="0.4"/>
+  <line x1="256" y1="256" x2="369" y2="369" stroke="#4ade80" stroke-width="1.5" opacity="0.4"/>
+  <line x1="256" y1="256" x2="143" y2="369" stroke="#fbbf24" stroke-width="1.5" opacity="0.3"/>
+  <line x1="256" y1="256" x2="143" y2="143" stroke="#f87171" stroke-width="1.5" opacity="0.3"/>
+</svg>
